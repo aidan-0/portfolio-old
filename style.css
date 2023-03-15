@@ -3,7 +3,6 @@
 }
 
 section {
-    height: 500px;
     background-color: white;
     border: solid black 1px;
 }
@@ -197,6 +196,7 @@ ul {
 
 li {
     text-decoration: none;
+    padding-right: 15px;
 }
 
 .fancy {
@@ -232,6 +232,12 @@ h2 {
     margin-top: 20px
 }
 
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
 .hero-text {
     margin-left: 50px;
     margin-bottom: 200px;
@@ -250,7 +256,6 @@ h2 {
     background-color: coral;
     border-radius: 30px;
     text-align: center;
-
 }
 
 .button:hover {
@@ -267,12 +272,67 @@ h2 {
     padding-bottom: 200px;
     color:aqua;
     padding-left: 100px;
-    
+    padding-right: 25px;
+
+}
+
+#social {
+    transition: transform .4s;
+
+}
+
+#social:hover {
+    transform: translate(-20px) scale(1.2);
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot-container {    
+    display: flex;
+    align-items: center;
+}
+.headshot {
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: transform .3s;
+}
+
+.headshot:hover {
+    transform: scale(1.2);
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card {
+    width: 250px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(202, 202, 202);
+    margin: 10px;
 }
 
 
 
 
+
+
+/* hover over social icon and change color 
+make them zoom to the left on hover*/
 
 
 
@@ -298,8 +358,6 @@ h2 {
     transition: transform 1.2s ease-in-out;
 }
 
-#hover-logo:hover {
+#hover-logo:hover{
     transform: rotate(360deg);
-
-
 }
