@@ -15,7 +15,7 @@
     <section class="hero">
         <nav>
             <div class="logo">
-                <img id="logo-img" src="Images/blue-background-splithalf.png" alt="finishedlogo">
+                <img id="logo-img" src="Images/blue-background-splithalf.png" alt="logo">
                 <img id="logo-img-a" src="Images/logo-a.png" alt="finishedlogo">
             </div>
             <div class="nav-bar">
@@ -61,11 +61,12 @@
             </div>
         </nav>
         <div class="hero-area">
+            <img id="hero-logo-img" src="Images/blue-background-splithalf.png" alt="logo">
             <div class="hero-text">
-                <h3 id="hero-1">Hi, my name is</h3>
+                <h2 id="hero-1">Hi, my name is</h2>
                 <h1 id="hero-2">Aidan McDonald</h1>
-                <h2 id="hero-3">Welcome to my Portfolio. <span class="fancy">Take a seat</span> and make yourself comfortable.</h2>
-                <div class="button" id="hero-4">About</div>
+                <h3 id="hero-3">Web Developer & Software Engineer</h3>
+                <button class="button" id="hero-4">About</button>
             </div>
             <div class="socials">
                 <div><a href="https://www.linkedin.com/in/aidan-mcdonald-24a279201/" id="social">
@@ -77,21 +78,44 @@
                 <div><a href="mailto:am.mcdonald00@gmail.com" id="social">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg>
                 </a></div>
+                <div class="vertical-line"></div>
             </div>
         </div> 
     </section>
-    <section class="sub-section">
+    <section class="aboutme-sub-section">
         <div class="information">
             <h2>About Me</h2>
-            <p>Hello, My name is Aidan McDonald. I am an aspiring Web Developer and Software Engineer.</p>
+            <p>I am a dedicated SoftwareEenginner and Web Developer with a strong passion for creating beautifully designed, innovative digital solutions. Although I may not have professional experience just yet, my journey has been filled with continuous learning and skill-building.</p>
+            <br>
+            <p>As you explore my portfolio, you'll find examples of my work and a glimpse into my dedication to crafting beautiful, impactful solutions. While I may be at the beginning of my professional journey, I am confident in my abilities and excited about the possibilities ahead. I am seeking opportunities to contribute my skills, passion, and commitment to a dynamic and growth-oriented organisation that values hard-work, innovation, and creativity.</p>
         </div>
         <div class="headshot-container">
             <img class="headshot" src="Images/me.png"/>
         </div>
     </section>
+
+    <section class="tech-stack-sub-section">
+        <div class="tech-stack">
+            <h2>Tech Stack</h2>
+            <p>I am experienced and enjoy using the following languages. Click on the logos to preview work I have done within the language.</p>
+            <div class="tech-logos-container">
+                <img id="tech-logos" class="cs-logo" src="Images/tech logos/csharp_logo.svg"/>
+                <img id="tech-logos" class="html-logo" src="Images/tech logos/html_logo.svg"/>
+                <img id="tech-logos" class="css-logo" src="Images/tech logos/css_logo.svg"/>
+                <img id="tech-logos" class="js-logo" src="Images/tech logos/javascript_logo.svg"/>
+                <img id="tech-logos" class="react-logo" src="Images/tech logos/react_logo.svg"/>
+                <img id="tech-logos" class="python-logo" src="Images/tech logos/python_logo.svg"/>
+                <img id="tech-logos" class="sql-logo" src="Images/tech logos/mysql_logo.svg"/>
+            </div>
+        </div>
+    </section>
+
+
     <section class="projects-section">
-        <h2>Projects</h2>
-        <div class="projects-container">
+        <h2 class="project-header">Projects</h2>
+        <div id="projects-container">
+            <div class="project-card">create beautiful image page from unsplash that moves around the screen while spread apart but hint towards the mouse</div>
+            <div class="project-card"></div>
             <div class="project-card"></div>
             <div class="project-card"></div>
             <div class="project-card"></div>
@@ -103,14 +127,18 @@
 
 
     </section>
-    <footer></footer>
-    <script scr="app.js"></script>
+    <footer>
+        <h2>Let's Connect!</h2>
+        <p>and collaborate to create something extraordinary together.</p>
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>
 
 
 
 
+<!-- have line up before socials -->
 
     <!--have portfolio projects at the bottom of the page and each one will link to a new page. the ASP.NET project can be linked to the html document and embedded as an iFrame-->
 
