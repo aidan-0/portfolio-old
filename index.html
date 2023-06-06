@@ -20,7 +20,7 @@
             </div>
             <div class="nav-bar">
                 <ul>
-                    <li><a href="#" id="nav-aboutme">About Me
+                    <li><a href="#about" id="nav-aboutme">About Me
                         <!-- span tags are for hover animation -->
                         <span></span>
                         <span></span>
@@ -30,7 +30,7 @@
                         <span></span>                        
                     </a></li>
 
-                    <li><a href="#" id="nav-projects">Projects
+                    <li><a href="#projects" id="nav-projects">Projects
                         <span></span>
                         <span></span>
                         <span></span>
@@ -48,7 +48,7 @@
                         <span></span>                        
                     </a></li>
 
-                    <li><a href="#" id="nav-contact">Contact
+                    <li><a href="mailto:am.mcdonald00@gmail.com" id="nav-contact">Contact
                         <span></span>
                         <span></span>
                         <span></span>
@@ -66,7 +66,7 @@
                 <h2 id="hero-1">Hi, my name is</h2>
                 <h1 id="hero-2">Aidan McDonald</h1>
                 <h3 id="hero-3">Web Developer & Software Engineer</h3>
-                <button class="button" id="hero-4">About</button>
+                <button class="button" id="hero-4" onClick="document.getElementById('about').scrollIntoView();">About</button>
             </div>
             <div class="socials">
                 <div><a href="https://www.linkedin.com/in/aidan-mcdonald-24a279201/" id="social">
@@ -82,12 +82,12 @@
             </div>
         </div> 
     </section>
-    <section class="aboutme-sub-section">
+    <section class="aboutme-sub-section" id="about">
         <div class="information">
             <h2>About Me</h2>
-            <p>I am a dedicated SoftwareEenginner and Web Developer with a strong passion for creating beautifully designed, innovative digital solutions. Although I may not have professional experience just yet, my journey has been filled with continuous learning and skill-building.</p>
+            <p>I am a dedicated Software Engineer and Web Developer with a strong passion for creating beautifully designed, innovative digital solutions. Although I may not have professional experience just yet, my journey has been filled with continuous learning and skill-building.</p>
             <br>
-            <p>As you explore my portfolio, you'll find examples of my work and a glimpse into my dedication to crafting beautiful, impactful solutions. While I may be at the beginning of my professional journey, I am confident in my abilities and excited about the possibilities ahead. I am seeking opportunities to contribute my skills, passion, and commitment to a dynamic and growth-oriented organisation that values hard-work, innovation, and creativity.</p>
+            <p><strong>more coming soon</strong></p>
         </div>
         <div class="headshot-container">
             <img class="headshot" src="Images/me.png"/>
@@ -97,7 +97,7 @@
     <section class="tech-stack-sub-section">
         <div class="tech-stack">
             <h2>Tech Stack</h2>
-            <p>I am experienced and enjoy using the following languages. Click on the logos to preview work I have done within the language.</p>
+            <p>I am experienced and enjoy using the following languages. Click on the logos to preview work I have done within the language. <strong>functionality coming soon</strong></p>
             <div class="tech-logos-container">
                 <img id="tech-logos" class="cs-logo" src="Images/tech logos/csharp_logo.svg"/>
                 <img id="tech-logos" class="html-logo" src="Images/tech logos/html_logo.svg"/>
@@ -111,10 +111,11 @@
     </section>
 
 
-    <section class="projects-section">
+    <section class="projects-section" id="projects">
         <h2 class="project-header">Projects</h2>
         <div id="projects-container">
-            <div class="project-card">create beautiful image page from unsplash that moves around the screen while spread apart but hint towards the mouse</div>
+            <!-- create beautiful image page from unsplash that moves around the screen while spread apart but hint towards the mouse -->
+            <div class="project-card">projects coming soon</div>
             <div class="project-card"></div>
             <div class="project-card"></div>
             <div class="project-card"></div>
@@ -128,13 +129,16 @@
 
     </section>
     <footer>
-        <h2>Let's Connect!</h2>
-        <p>and collaborate to create something extraordinary together.</p>
+        <!-- <h2>footer!</h2>
+        <p>coming soon.</p> -->
     </footer>
     <script src="app.js"></script>
 </body>
 </html>
 
+
+
+<!-- when nav resume is clicked, bring out from the left and cover set amount of the page. -->
 
 
 
@@ -143,6 +147,8 @@
     <!--have portfolio projects at the bottom of the page and each one will link to a new page. the ASP.NET project can be linked to the html document and embedded as an iFrame-->
 
     <!--To create an interactive web page where users can click on something and play sound, and also create their own songs, you will need to use a combination of HTML, CSS, JavaScript, and an audio library like Howler.js or Tone.js. Here's a general outline of the steps you can follow:
+
+
 
 Design the layout of your web page using HTML and CSS. You can use HTML to structure the page and CSS to style the elements. You will need buttons or clickable elements to trigger the sound.
 
